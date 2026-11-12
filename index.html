@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poulomee Ghosh | IISc Bengaluru</title>
+<meta name="description" content="Poulomee Ghosh, Research Associate at the FOCAS Lab, Department of Cyber-Physical Systems, Indian Institute of Science, Bengaluru. Safe and feasible adaptive control of uncertain systems.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">Poulomee Ghosh</a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+      <a href="https://scholar.google.com/citations?user=lMPHw_MAAAAJ" target="_blank" rel="noopener">Scholar ↗</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container hero-inner">
+    <img class="hero-photo" src="assets/photo.jpg" alt="Poulomee Ghosh" width="180" height="180">
+    <div>
+      <h1>Poulomee Ghosh</h1>
+      <p class="subtitle">Research Associate · Formal Control and Autonomous Systems (FOCAS) Lab</p>
+      <p class="subtitle-2">Department of Cyber-Physical Systems · Indian Institute of Science, Bengaluru</p>
+      <div class="btns">
+        <a class="btn btn-fill" href="https://scholar.google.com/citations?user=lMPHw_MAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn btn-outline" href="#publications">Publications</a>
+        <a class="btn btn-outline" href="mailto:poulomeeghosh99@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-label">About</div>
+    <p>I am a Research Associate with the <strong>FOCAS Lab</strong> at <strong>IISc Bengaluru</strong>, where I work with Dr. Pushpak Jagtap on safe control and robotic autonomy. I received my Ph.D. in Electrical Engineering from <strong>IIT Delhi</strong> in 2026 under the supervision of Prof. Shubhendu Bhasin, as a recipient of the <strong>Prime Minister’s Research Fellowship (PMRF)</strong>. Before that, I completed my B.Tech. in Electrical Engineering at <strong>NIT Durgapur</strong> (2016–2020).</p>
+    <p>My research focuses on safe and feasible adaptive control of uncertain dynamical systems, with particular emphasis on satisfying state and actuator constraints and establishing verifiable feasibility guarantees. I am interested in translating these methods to robotics and autonomous systems, where theoretical guarantees must remain valid under uncertainty and real-world limitations.</p>
+    <p class="tags">Uncertain Nonlinear Systems · Lyapunov and Barrier Methods · Constrained Adaptive Control · Safety-Critical Control · Robotics</p>
+  </div>
+</section>
+
+<section class="section section-alt" id="research">
+  <div class="container">
+    <div class="section-label">Research</div>
+    <p>Classical model reference adaptive control (MRAC) guarantees tracking under uncertainty, but does not account for user-defined bounds on states or inputs. Optimization-based alternatives such as MPC and control barrier functions need real-time optimization and good model knowledge. My work develops <strong>adaptive, optimization-free controllers</strong> that enforce state, input and input-rate constraints under bounded disturbances, together with <strong>verifiable feasibility conditions</strong> that tell in advance whether a safe control policy exists.</p>
+
+    <div class="research-item">
+      <h3>State and input constrained MRAC for uncertain LTI systems</h3>
+      <p>A saturated adaptive controller combined with a barrier Lyapunov function keeps the plant state and control input within prescribed bounds, with robustness to unmatched disturbances and sufficient feasibility conditions.</p>
+      <p class="refs">CDC 2022 · IEEE TAC 2026</p>
+    </div>
+    <div class="research-item">
+      <h3>Uncertain Euler–Lagrange systems and robotics</h3>
+      <p>Extension to nonlinear Euler–Lagrange dynamics (robot manipulators, mechanical systems) with constraint-compliant adaptive tracking, validated on manipulator and 2-DoF helicopter models.</p>
+      <p class="refs">ACC 2023 · European Journal of Control 2026 · ICC 2025 Workshop</p>
+    </div>
+    <div class="research-item">
+      <h3>Input amplitude and rate limits</h3>
+      <p>A two-layer barrier Lyapunov design that constrains plant states, input amplitude and input rate simultaneously for uncertain MIMO systems.</p>
+      <p class="refs">International Journal of Systems Science 2025</p>
+    </div>
+    <div class="research-item">
+      <h3>Time-varying state and input constraints</h3>
+      <p>Adaptive control with constraints that change over time, with feasibility conditions that can be checked offline.</p>
+      <p class="refs">arXiv 2025 · arXiv 2026</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-label">Publications</div>
+    <div class="stats">
+      <div><b>28</b><span>Citations</span></div>
+      <div><b>3</b><span>h-index</span></div>
+      <div><b>1</b><span>i10-index</span></div>
+    </div>
+    <p class="note">Metrics from <a href="https://scholar.google.com/citations?user=lMPHw_MAAAAJ" target="_blank" rel="noopener">Google Scholar</a>, November 2026.</p>
+
+    <h3 class="group">Journal Articles</h3>
+    <ol class="pubs">
+      <li>
+        <div class="pt">State and Input Constrained Adaptive Control of Uncertain Euler–Lagrange Systems with Feasibility Analysis</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>European Journal of Control</em>, 101512, 2026. <a href="https://arxiv.org/abs/2505.22352" target="_blank" rel="noopener">[arXiv]</a></div>
+      </li>
+      <li>
+        <div class="pt">State and Input Constrained Model Reference Adaptive Control with Robustness and Feasibility Analysis</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>IEEE Transactions on Automatic Control</em>, 2026. <a href="https://ieeexplore.ieee.org/document/11353912" target="_blank" rel="noopener">[IEEE]</a></div>
+      </li>
+      <li>
+        <div class="pt">State Constrained Model Reference Adaptive Control with Input Amplitude and Rate Limits</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>International Journal of Systems Science</em>, pp. 1–13, 2025. <a href="https://doi.org/10.1080/00207721.2025.2603561" target="_blank" rel="noopener">[DOI]</a></div>
+      </li>
+    </ol>
+
+    <h3 class="group">Conference Papers</h3>
+    <ol class="pubs" start="4">
+      <li>
+        <div class="pt">On the Implementation of de Bruijn Sequence Generators with Higher Linear Complexity</div>
+        <div class="pa">S. Roy, A. Deb, U. Barman, P. Dutta, T. M. Behera, <strong>P. Ghosh</strong></div>
+        <div class="pv"><em>5th IEEE International Conference on Applied Electromagnetics, Signal Processing and Communication (AESPC)</em>, 2025.</div>
+      </li>
+      <li>
+        <div class="pt">Adaptive Tracking Control of 2-DoF Helicopter under State and Input Constraints with Verifiable Feasibility</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>Indian Control Conference (ICC) 2025, Workshop on Advances in AI-Driven Control</em>, 2025.</div>
+      </li>
+      <li>
+        <div class="pt">Adaptive Tracking Control of Uncertain Euler–Lagrange Systems with State and Input Constraints</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>American Control Conference (ACC)</em>, San Diego, pp. 4229–4234, 2023. <a href="https://ieeexplore.ieee.org/abstract/document/10156436" target="_blank" rel="noopener">[IEEE]</a></div>
+      </li>
+      <li>
+        <div class="pt">State and Input Constrained Model Reference Adaptive Control</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv"><em>61st IEEE Conference on Decision and Control (CDC)</em>, Cancún, pp. 68–73, 2022. <a href="https://arxiv.org/abs/2206.13084" target="_blank" rel="noopener">[arXiv]</a></div>
+      </li>
+      <li>
+        <div class="pt">On the Analysis of Sequences Generated by S-boxes Cascaded with σ-LFSRs</div>
+        <div class="pa">S. Pal, <strong>P. Ghosh</strong>, S. Roy, P. Biswal</div>
+        <div class="pv"><em>2nd IEEE International Conference on Applied Electromagnetics, Signal Processing and Communication (AESPC)</em>, 2021.</div>
+      </li>
+    </ol>
+
+    <h3 class="group">Preprints</h3>
+    <ol class="pubs" start="9">
+      <li>
+        <div class="pt">Adaptive Tracking Control of Euler–Lagrange Systems with Time-Varying State and Input Constraints</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv">arXiv:2603.08307, 2026. <a href="https://arxiv.org/abs/2603.08307" target="_blank" rel="noopener">[arXiv]</a></div>
+      </li>
+      <li>
+        <div class="pt">Model Reference Adaptive Control with Time-Varying State and Input Constraints</div>
+        <div class="pa"><strong>P. Ghosh</strong>, S. Bhasin</div>
+        <div class="pv">arXiv:2508.21586, 2025. <a href="https://arxiv.org/abs/2508.21586" target="_blank" rel="noopener">[arXiv]</a></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt" id="education">
+  <div class="container">
+    <div class="section-label">Education</div>
+    <div class="row">
+      <div class="when">2020 – 2026</div>
+      <div>
+        <h3>Ph.D. in Electrical Engineering</h3>
+        <p>Indian Institute of Technology Delhi, New Delhi</p>
+        <p class="muted">Supervisor: Prof. Shubhendu Bhasin · Prime Minister’s Research Fellow · Coursework CGPA 9.52/10</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2016 – 2020</div>
+      <div>
+        <h3>B.Tech. in Electrical Engineering</h3>
+        <p>National Institute of Technology Durgapur, West Bengal</p>
+        <p class="muted">CGPA 9.13/10</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container">
+    <div class="section-label">Experience</div>
+    <div class="row">
+      <div class="when">2026 – present</div>
+      <div>
+        <h3>Research Associate, FOCAS Lab, IISc Bengaluru</h3>
+        <p class="muted">Safe control and robotic autonomy, with Dr. Pushpak Jagtap.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">May – Jul 2019</div>
+      <div>
+        <h3>Summer Student, CERN, Geneva</h3>
+        <p>Investigating electrical transients in CMS GEM detectors: ensuring stability in LV board design.</p>
+        <p class="muted">CMS Collaboration · Supervisors: Dr. Archana Sharma, Dr. Martina Ressegotti</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">May – Jun 2018</div>
+      <div>
+        <h3>Summer Intern, IIT Guwahati</h3>
+        <p>A study on linear complexity in shift register sequences.</p>
+        <p class="muted">Supervisor: Dr. Srinivasan Krishnaswamy · Co-supervisor: Dr. Suman Roy</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2019 – 2020</div>
+      <div>
+        <h3>B.Tech. Project, NIT Durgapur</h3>
+        <p>Studies on interfering signals in the measurement of partial discharge for condition monitoring of electrical apparatus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="teaching">
+  <div class="container">
+    <div class="section-label">Teaching</div>
+    <h3 class="group">Teaching Assistant, IIT Delhi</h3>
+    <ul class="list">
+      <li>Introduction to Electrical Engineering (ELL101) <span class="muted">· 2021–22, 2022–23, 2023–24</span></li>
+      <li>Introduction to Electrical Engineering Laboratory (ELP101) <span class="muted">· 2023–24</span></li>
+      <li>Control Engineering (ELL225) <span class="muted">· 2021–22, 2022–23</span></li>
+      <li>Control Systems Laboratory (ELP225) <span class="muted">· 2023–24</span></li>
+      <li>Control Systems Laboratory (ELP800) <span class="muted">· 2022–23</span></li>
+      <li>Mathematical Methods in Control (ELL701) <span class="muted">· 2024–25</span></li>
+    </ul>
+    <h3 class="group">Teaching Assistant, NPTEL</h3>
+    <ul class="list">
+      <li>Nonlinear and Adaptive Control <span class="muted">· Jan 2024 – Feb 2025</span></li>
+    </ul>
+    <h3 class="group">PMRF Teaching, G. B. Pant Government Engineering College (DSEU), New Delhi</h3>
+    <ul class="list">
+      <li>Network Analysis and Synthesis Laboratory <span class="muted">· 2022–23</span></li>
+      <li>Digital Circuits and Systems Laboratory <span class="muted">· 2022–23</span></li>
+      <li>Artificial Intelligence and Machine Learning Laboratory <span class="muted">· 2023–24</span></li>
+      <li>Basics of Electronics Engineering Laboratory <span class="muted">· 2023–24</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-label">Contact</div>
+    <p>FOCAS Lab, Department of Cyber-Physical Systems<br>Indian Institute of Science, Bengaluru 560012, India</p>
+    <p>Email: <a href="mailto:poulomeeghosh99@gmail.com">poulomeeghosh99@gmail.com</a></p>
+    <p><a href="https://scholar.google.com/citations?user=lMPHw_MAAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://www.instagram.com/p.g.___/" target="_blank" rel="noopener">Photography (Instagram)</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">© 2026 Poulomee Ghosh · Indian Institute of Science, Bengaluru</div>
+</footer>
+
+<script>
+const t=document.querySelector('.nav-toggle'),l=document.querySelector('.nav-links');
+t.addEventListener('click',()=>{const o=l.classList.toggle('open');t.classList.toggle('open',o);t.setAttribute('aria-expanded',o)});
+l.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{l.classList.remove('open');t.classList.remove('open');t.setAttribute('aria-expanded',false)}));
+</script>
+</body>
+</html>
